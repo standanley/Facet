@@ -29,6 +29,7 @@ python: 3.7
 
 install: 
     - ./install_coreir.sh
+    - ./install_fault.sh
     - pip install -r requirements.txt
     - pip install pytest
     - wget http://mirrors.kernel.org/ubuntu/pool/universe/n/ngspice/ngspice_30.2-1_amd64.deb
