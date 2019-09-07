@@ -34,12 +34,6 @@ def test_ngspice():
     import magma as m
     import fault
 
-    print(fault.__dict__)
-    print(fault.Tester)
-    print(fault.verilogams)
-    print(fault.verilogams.__dict__)
-    print(fault.RealIn)
-
     MyAmp = m.DeclareCircuit(
         'myamp',
         'in_', fault.RealIn,
