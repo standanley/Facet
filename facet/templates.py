@@ -1,5 +1,4 @@
 from magma import *
-import mantle
 import fault
 
 
