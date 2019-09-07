@@ -32,6 +32,7 @@ install:
     - ./install_fault.sh
     - pip install -r requirements.txt
     - pip install pytest
+    - pip install -e .
     - sudo apt-get install ngspice
 
 script:
